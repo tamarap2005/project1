@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(rgb(160, 136, 116), rgb(225, 210, 193), white 90%);
+} 
+
+body.achtergrond {
+    background-image: linear-gradient(white 40%, rgb(177, 176, 167), rgb(140, 134, 134));
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    padding-left: 2%;
+}
+
+h2, h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+header {
+    display: flex;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+
+header img {
+    width: 45%;
+    margin-right: 55%;
+}
+
+.pagina {
+    background-color:rgb(160, 136, 116);
+}
+
+img {
+    display: block;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
+
+main section img {
+    width: 200px;
+}
+
+main {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+ul {
+    background-color: antiquewhite;
+    display: flex;
+    list-style-type: none;
+    margin-right: 6%;
+    margin-top: 3%;
+}
+
+.pagina {
+    background-color: rgb(156, 147, 118);
+    padding: 2%;
+}
+
+img.logo {
+    width: 15%;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+}
+
+.eten {
+    display: flex;
+    margin: 0;
+}
+
+section img {
+    width: max-content;
+    align-self: center;
+}
+
+main section p {
+    margin-right: 10%;
+    width: 80%;
+}
+
+p {
+    margin-top: 5%;
+}
+
+h3 {
+    margin-top: 5%;
+}
+
+.info {
+    margin-left: 7%;
+    margin-right: 7%;
+}
